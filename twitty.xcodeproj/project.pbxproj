@@ -11,6 +11,8 @@
 		2FAEB0002922A8ED00DA8BB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAEAFFF2922A8ED00DA8BB5 /* ContentView.swift */; };
 		2FAEB0022922A8ED00DA8BB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FAEB0012922A8ED00DA8BB5 /* Assets.xcassets */; };
 		2FAEB0052922A8ED00DA8BB5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FAEB0042922A8ED00DA8BB5 /* Preview Assets.xcassets */; };
+		2FAEB0122922AC0500DA8BB5 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAEB0112922AC0500DA8BB5 /* FeedView.swift */; };
+		2FAEB0142922B07800DA8BB5 /* TweetRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAEB0132922B07800DA8BB5 /* TweetRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		2FAEAFFF2922A8ED00DA8BB5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2FAEB0012922A8ED00DA8BB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FAEB0042922A8ED00DA8BB5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2FAEB0112922AC0500DA8BB5 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		2FAEB0132922B07800DA8BB5 /* TweetRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,11 @@
 		2FAEAFFC2922A8ED00DA8BB5 /* twitty */ = {
 			isa = PBXGroup;
 			children = (
+				2FAEB00F2922AB9200DA8BB5 /* Components */,
+				2FAEB00E2922AB7000DA8BB5 /* Extentions */,
+				2FAEB00D2922AB6E00DA8BB5 /* Model */,
+				2FAEB00C2922AB6C00DA8BB5 /* Service */,
+				2FAEB00B2922AB6900DA8BB5 /* Core */,
 				2FAEAFFD2922A8ED00DA8BB5 /* twittyApp.swift */,
 				2FAEAFFF2922A8ED00DA8BB5 /* ContentView.swift */,
 				2FAEB0012922A8ED00DA8BB5 /* Assets.xcassets */,
@@ -65,6 +74,51 @@
 				2FAEB0042922A8ED00DA8BB5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2FAEB00B2922AB6900DA8BB5 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2FAEB0102922ABB400DA8BB5 /* Feed */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		2FAEB00C2922AB6C00DA8BB5 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		2FAEB00D2922AB6E00DA8BB5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2FAEB00E2922AB7000DA8BB5 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		2FAEB00F2922AB9200DA8BB5 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2FAEB0132922B07800DA8BB5 /* TweetRowView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		2FAEB0102922ABB400DA8BB5 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				2FAEB0112922AC0500DA8BB5 /* FeedView.swift */,
+			);
+			path = Feed;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +192,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FAEB0002922A8ED00DA8BB5 /* ContentView.swift in Sources */,
+				2FAEB0142922B07800DA8BB5 /* TweetRowView.swift in Sources */,
+				2FAEB0122922AC0500DA8BB5 /* FeedView.swift in Sources */,
 				2FAEAFFE2922A8ED00DA8BB5 /* twittyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

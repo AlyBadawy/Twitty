@@ -11,7 +11,7 @@ import SwiftUI
 struct twittyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FeedView()
         }
     }
 }
