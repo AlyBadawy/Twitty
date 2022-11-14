@@ -13,6 +13,10 @@
 		2FAEB0052922A8ED00DA8BB5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FAEB0042922A8ED00DA8BB5 /* Preview Assets.xcassets */; };
 		2FAEB0122922AC0500DA8BB5 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAEB0112922AC0500DA8BB5 /* FeedView.swift */; };
 		2FAEB0142922B07800DA8BB5 /* TweetRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAEB0132922B07800DA8BB5 /* TweetRowView.swift */; };
+		2FAEB0162922E54B00DA8BB5 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAEB0152922E54B00DA8BB5 /* MainTabView.swift */; };
+		2FAEB01B2922E66A00DA8BB5 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAEB01A2922E66A00DA8BB5 /* ExploreView.swift */; };
+		2FAEB01D2922E67500DA8BB5 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAEB01C2922E67500DA8BB5 /* NotificationsView.swift */; };
+		2FAEB01F2922E67D00DA8BB5 /* MssagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAEB01E2922E67D00DA8BB5 /* MssagesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +27,10 @@
 		2FAEB0042922A8ED00DA8BB5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2FAEB0112922AC0500DA8BB5 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		2FAEB0132922B07800DA8BB5 /* TweetRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetRowView.swift; sourceTree = "<group>"; };
+		2FAEB0152922E54B00DA8BB5 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		2FAEB01A2922E66A00DA8BB5 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		2FAEB01C2922E67500DA8BB5 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		2FAEB01E2922E67D00DA8BB5 /* MssagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MssagesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +87,7 @@
 		2FAEB00B2922AB6900DA8BB5 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				2FAEB0102922ABB400DA8BB5 /* Feed */,
+				2FAEB0202922E7A700DA8BB5 /* Tabs */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -119,6 +127,42 @@
 				2FAEB0112922AC0500DA8BB5 /* FeedView.swift */,
 			);
 			path = Feed;
+			sourceTree = "<group>";
+		};
+		2FAEB0172922E62100DA8BB5 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				2FAEB01A2922E66A00DA8BB5 /* ExploreView.swift */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		2FAEB0182922E62700DA8BB5 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				2FAEB01C2922E67500DA8BB5 /* NotificationsView.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		2FAEB0192922E63600DA8BB5 /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				2FAEB01E2922E67D00DA8BB5 /* MssagesView.swift */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		2FAEB0202922E7A700DA8BB5 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				2FAEB0152922E54B00DA8BB5 /* MainTabView.swift */,
+				2FAEB0102922ABB400DA8BB5 /* Feed */,
+				2FAEB0172922E62100DA8BB5 /* Explore */,
+				2FAEB0182922E62700DA8BB5 /* Notifications */,
+				2FAEB0192922E63600DA8BB5 /* Messages */,
+			);
+			path = Tabs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,10 +235,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FAEB01F2922E67D00DA8BB5 /* MssagesView.swift in Sources */,
 				2FAEB0002922A8ED00DA8BB5 /* ContentView.swift in Sources */,
 				2FAEB0142922B07800DA8BB5 /* TweetRowView.swift in Sources */,
 				2FAEB0122922AC0500DA8BB5 /* FeedView.swift in Sources */,
 				2FAEAFFE2922A8ED00DA8BB5 /* twittyApp.swift in Sources */,
+				2FAEB01B2922E66A00DA8BB5 /* ExploreView.swift in Sources */,
+				2FAEB0162922E54B00DA8BB5 /* MainTabView.swift in Sources */,
+				2FAEB01D2922E67500DA8BB5 /* NotificationsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
