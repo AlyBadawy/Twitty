@@ -19,6 +19,7 @@
 		2FAEB01F2922E67D00DA8BB5 /* MssagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAEB01E2922E67D00DA8BB5 /* MssagesView.swift */; };
 		2FAEB0232922F15B00DA8BB5 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAEB0222922F15B00DA8BB5 /* ProfileView.swift */; };
 		2FAEB0252923BDF200DA8BB5 /* TweetFilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAEB0242923BDF200DA8BB5 /* TweetFilterViewModel.swift */; };
+		2FAEB0272923C4EB00DA8BB5 /* UserRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAEB0262923C4EB00DA8BB5 /* UserRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		2FAEB01E2922E67D00DA8BB5 /* MssagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MssagesView.swift; sourceTree = "<group>"; };
 		2FAEB0222922F15B00DA8BB5 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		2FAEB0242923BDF200DA8BB5 /* TweetFilterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetFilterViewModel.swift; sourceTree = "<group>"; };
+		2FAEB0262923C4EB00DA8BB5 /* UserRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				2FAEB0132922B07800DA8BB5 /* TweetRowView.swift */,
+				2FAEB0262923C4EB00DA8BB5 /* UserRowView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 				2FAEB0122922AC0500DA8BB5 /* FeedView.swift in Sources */,
 				2FAEAFFE2922A8ED00DA8BB5 /* twittyApp.swift in Sources */,
 				2FAEB01B2922E66A00DA8BB5 /* ExploreView.swift in Sources */,
+				2FAEB0272923C4EB00DA8BB5 /* UserRowView.swift in Sources */,
 				2FAEB0162922E54B00DA8BB5 /* MainTabView.swift in Sources */,
 				2FAEB01D2922E67500DA8BB5 /* NotificationsView.swift in Sources */,
 			);
